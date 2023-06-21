@@ -223,7 +223,7 @@ class App extends Component {
                     className="del-btn"
                     onClick={() => this.deleteItem(eachValue.id)}
                     // eslint-disable-next-line react/no-unknown-property
-                    testid="delete"
+                    data-testid="delete"
                   >
                     <img
                       src="https://assets.ccbp.in/frontend/react-js/password-manager-delete-img.png"
